@@ -18,11 +18,27 @@
 7. How can you perform data modification using UPDATE statements?
    > Ans: UPDATE statement used to modify existing data in a table. Using SET Method we can update by specify the table name, the columns to be updated by WHERE clause.
 8. What is the significance of the JOIN operation, and how does it work in PostgreSQL?
-   > Ans:
+   > Ans: JOIN operation combine rows from two or multiple tables based on related columns. It allows to retrieve data from multiple tables in a single query. There is various types of JOIN:
+   - INNER JOIN
+   - LEFT JOIN
+   - RIGHT JOIN
+   - FULL JOIN
 9. Explain the GROUP BY clause and its role in aggregation operations.
-   > Ans:
+   > Ans: The GROUP BY clause is used to group rows based on specific columns same values. We can use aggregate function with it like COUNT, AVG, SUM etc.
 10. How can you calculate aggregate functions like COUNT, SUM, and AVG in PostgreSQL?
-    > Ans:
+    > Ans: Aggregate functions in PostgreSQL are used to calculate multiple rows of data or summary statistics on dataset.
+    - COUNT(): Returns the number of rows.
+    ```
+    SELECT COUNT(*) FROM students;
+    ```
+    - SUM(): Returns the total sum of a numeric column.
+    ```
+    SELECT SUM(credits) FROM courses;
+    ```
+    - AVG(): Returns the average value of a numeric column.
+    ```
+    SELECT AVG(frontend_mark) FROM students;
+    ```
 11. What is the purpose of an index in PostgreSQL, and how does it optimize query performance?
     > Ans:
 12. Explain the concept of a PostgreSQL view and how it differs from a table.
