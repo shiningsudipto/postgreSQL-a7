@@ -1,4 +1,4 @@
-### Questions (Answer 10 Questions):
+### Questions And Answers:
 
 1. What is PostgreSQL?
    > Ans: PostgresSQL is an advanced RDMS. It supports both relational (SQL) and non-relational (JSON) queries. PostgreSQL also known as Postgres, Postgres known for its reliability, robustness, and advanced features. It supports a wide range of data types, complex queries, and ACID compliance.
